@@ -3882,3 +3882,19 @@ $lang['payment_attempt_amount']                             = 'Invoice Total';
 $lang['payment_attempt_fee']                                = 'Payment Fee';
 $lang['feature']                                            = 'Feature';
 $lang['capabilities']                                       = 'Capabilities';
+
+
+# Commissions
+
+$lang['commissions']                                        = 'Commissions';
+$lang['new_commission']                                     = 'New Commission';
+$lang['commission_dt_table_heading_detail']                 = 'Details';
+$lang['commission_dt_table_heading_amount']                 = 'Amount';
+$lang['commission_dt_table_heading_action']                 = 'Date Created';
+$lang['create_commission_title']                            = 'Create new commission';
+$lang['commission_add_detail']                              = 'Details';
+$lang['commission_add_amount']                              = 'Amount';
+$lang['commission_amount_tooltip']                          = 'Base currency will be used.';
+$lang['commission_lowercase']                               = 'commission';
+$lang['commission']                                         = 'Commission';
+$lang['commission_description']                             = 'Commission description';

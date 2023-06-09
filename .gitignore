@@ -2,3 +2,4 @@
 /install
 /application/vendor
 package-lock.json
+package.json

@@ -187,3 +187,9 @@ $route['survey/(:num)/(:any)'] = 'surveys/participate/index/$1/$2';
 if (file_exists(APPPATH . 'config/my_routes.php')) {
     include_once(APPPATH . 'config/my_routes.php');
 }
+
+$route['admin/commissions']                 = 'admin/commissions';
+$route['admin/commissions/article']         = 'admin/commissions/article';
+$route['admin/commissions/article/(:any)']  = 'admin/commissions/article/$1';
+$route['admin/commissions/view/(:any)']  = 'admin/commissions/view/$1';
+$route['admin/commissions/delete/(:any)']  = 'admin/commissions/delete/$1';

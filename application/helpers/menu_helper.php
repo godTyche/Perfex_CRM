@@ -115,15 +115,25 @@ function app_init_admin_sidebar_menu_items()
         ]);
     }
 
-    if (has_permission('expenses', '', 'view') || has_permission('expenses', '', 'view_own')) {
-        $CI->app_menu->add_sidebar_menu_item('expenses', [
-            'name'     => _l('expenses'),
-            'href'     => admin_url('expenses'),
+    // if (has_permission('expenses', '', 'view') || has_permission('expenses', '', 'view_own')) {
+    //     $CI->app_menu->add_sidebar_menu_item('expenses', [
+    //         'name'     => _l('expenses'),
+    //         'href'     => admin_url('expenses'),
+    //         'icon'     => 'fa-regular fa-file-lines',
+    //         'position' => 20,
+    //         'badge'    => [],
+    //     ]);
+    // }
+
+    //if (has_permission('expenses', '', 'view') || has_permission('expenses', '', 'view_own')) {
+        $CI->app_menu->add_sidebar_menu_item('commissions', [
+            'name'     => _l('commissions'),
+            'href'     => admin_url('commissions'),
             'icon'     => 'fa-regular fa-file-lines',
-            'position' => 20,
+            'position' => 22,
             'badge'    => [],
         ]);
-    }
+    //}
 
     if (has_permission('contracts', '', 'view') || has_permission('contracts', '', 'view_own')) {
         $CI->app_menu->add_sidebar_menu_item('contracts', [

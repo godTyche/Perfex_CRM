@@ -175,10 +175,18 @@ class AdminController extends App_Controller
             'icon'     => 'fa-solid fa-tty',
         ]);
 
+        // $this->app->add_quick_actions_link([
+        //     'name'       => _l('expense'),
+        //     'permission' => 'expenses',
+        //     'url'        => 'expenses/expense',
+        //     'position'   => 50,
+        //     'icon'       => 'fa-solid fa-file-lines',
+        // ]);
+
         $this->app->add_quick_actions_link([
-            'name'       => _l('expense'),
+            'name'       => _l('commission'),
             'permission' => 'expenses',
-            'url'        => 'expenses/expense',
+            'url'        => 'commissions/article',
             'position'   => 50,
             'icon'       => 'fa-solid fa-file-lines',
         ]);
